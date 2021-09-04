@@ -8,8 +8,9 @@ let loadImage=(src,callback) => {
 };
 
 let imagePath = (frameNumber,animation) => {
-    //let gitpath="https://meena-design.github.io/Project1";
-return "/images/" +animation+"/"+frameNumber + ".png";
+    let gitpath="https://meena-design.github.io/Project1";
+    
+return gitpath+"/images/" +animation+"/"+frameNumber + ".png";
 };
 
 let frames = {
